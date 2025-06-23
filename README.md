@@ -43,35 +43,30 @@ How to Run
 4. View the result
 5. Choose to continue or exit (option 5)
 
-Example
-
-```
-=========================================
-         CALCULATOR CLI APP
-=========================================
+Example:
 Select operation:
 1. Add (+)
 2. Subtract (-)
 3. Multiply (*)
 4. Divide (/)
 5. Exit
-=========================================
+-----
 Enter your choice (1-5): 1
 Enter first number: 10
 Enter second number: 5
 
 Result: 10.0 + 5.0 = 15.0
 
+~code structure:
 
- Code Structure
+- add() - Addition function
+- subtract() - Subtraction function
+- multiply() - Multiplication function
+- divide() - Division function with zero-division handling
+- display_menu() - Shows the main menu
+- get_numbers() - Gets user input with validation
+- main() - Main program loop
 
-- `add()` - Addition function
-- `subtract()` - Subtraction function
-- `multiply()` - Multiplication function
-- `divide()` - Division function with zero-division handling
-- `display_menu()` - Shows the main menu
-- `get_numbers()` - Gets user input with validation
-- `main()` - Main program loop
 
 
 
