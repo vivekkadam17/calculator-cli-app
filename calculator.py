@@ -34,7 +34,7 @@ def get_numbers():
         return None, None
 
 def main():
-    print("🚀 Calculator CLI App Starting...")
+    print("Calculator CLI App Starting...")
     print("Welcome to Calculator CLI App!")
     
     while True:
